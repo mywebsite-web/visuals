@@ -81,39 +81,44 @@
 
     const projectImages = {
       'p1': [
-        { src: 'img1.jpg', caption: 'Project 1 Image 1' },
-        { src: 'img6.jpg', caption: 'Project 1 Image 2' },
-        { src: 'img11.jpg', caption: 'Project 1 Image 3' },
-        { src: 'img14.jpg', caption: 'Project 1 Image 4' },
-        { src: 'img56.jpg', caption: 'Project 1 Image 5' }
+        { src: 'new2.jpg', caption: 'Project 1 Image 1' },
+        { src: 'img1.jpg', caption: 'Project 1 Image 2' },
+        { src: 'img6.jpg', caption: 'Project 1 Image 3' },
+        { src: 'img11.jpg', caption: 'Project 1 Image 4' },
+        { src: 'img14.jpg', caption: 'Project 1 Image 5' },
+        { src: 'img56.jpg', caption: 'Project 1 Image 6' }
       ],
       'p2': [
         { src: 'img7.jpg', caption: 'Project 2 Image 1' },
         { src: 'img55.jpg', caption: 'Project 2 Image 2' },
         { src: 'img49.jpg', caption: 'Project 2 Image 3' },
         { src: 'img48.jpg', caption: 'Project 2 Image 4' },
-        { src: 'img40.jpg', caption: 'Project 2 Image 5' }
+        { src: 'new3.jpg', caption: 'Project 1 Image 5' },
+        { src: 'img40.jpg', caption: 'Project 2 Image 6' }
       ],
       'p3': [
         { src: 'img12.jpg', caption: 'Project 3 Image 1' },
         { src: 'img32.jpg', caption: 'Project 3 Image 2' },
         { src: 'img51.jpg', caption: 'Project 3 Image 3' },
         { src: 'img53.jpg', caption: 'Project 3 Image 4' },
-        { src: 'img33.jpg', caption: 'Project 3 Image 5' }
+        { src: 'new4.jpg', caption: 'Project 1 Image 5' },
+        { src: 'img33.jpg', caption: 'Project 3 Image 6' }
       ],
       'p4': [
         { src: 'img16.jpg', caption: 'Project 4 Image 1' },
         { src: 'img17.jpg', caption: 'Project 4 Image 2' },
         { src: 'img3.jpg', caption: 'Project 4 Image 3' },
         { src: 'img19.jpg', caption: 'Project 4 Image 4' },
-        { src: 'img20.jpg', caption: 'Project 4 Image 5' }
+        { src: 'new5.jpg', caption: 'Project 1 Image 5' },
+        { src: 'img20.jpg', caption: 'Project 4 Image 6' }
       ],
       'p5': [
-        { src: 'img21.jpg', caption: 'Project 5 Image 1' },
-        { src: 'img34.jpg', caption: 'Project 5 Image 2' },
-        { src: 'img23.jpg', caption: 'Project 5 Image 3' },
-        { src: 'img24.jpg', caption: 'Project 5 Image 4' },
-        { src: 'img25.jpg', caption: 'Project 5 Image 5' }
+        { src: 'new6.jpg', caption: 'Project 1 Image 1' },
+        { src: 'img21.jpg', caption: 'Project 5 Image 2' },
+        { src: 'img34.jpg', caption: 'Project 5 Image 3' },
+        { src: 'img23.jpg', caption: 'Project 5 Image 4' },
+        { src: 'img24.jpg', caption: 'Project 5 Image 5' },
+        { src: 'img25.jpg', caption: 'Project 5 Image 6' }
       ],
       'p6': [
         { src: 'img58.jpg', caption: 'Project 6 Image 1' },
@@ -127,14 +132,16 @@
         { src: 'img53.jpg', caption: 'Project 7 Image 2' },
         { src: 'img55.jpg', caption: 'Project 7 Image 3' },
         { src: 'img41.jpg', caption: 'Project 7 Image 4' },
-        { src: 'img53.jpg', caption: 'Project 7 Image 5' }
+        { src: 'new7.jpg', caption: 'Project 1 Image 5' },
+        { src: 'img53.jpg', caption: 'Project 7 Image 6' }
       ],
       'p8': [
         { src: 'img8.jpg', caption: 'Project 8 Image 1' },
         { src: 'img63.jpg', caption: 'Project 8 Image 2' },
         { src: 'img62.jpg', caption: 'Project 8 Image 3' },
         { src: 'img64.jpeg', caption: 'Project 8 Image 4' },
-        { src: 'img65.webp', caption: 'Project 8 Image 5' }
+        { src: 'img64.jpeg', caption: 'Project 8 Image 5' },
+        { src: 'new1.jpg', caption: 'Project 8 Image 6' }
       ],
       'p9': [
         { src: 'img66.jpg', caption: 'Project 9 Image 1' },
@@ -150,6 +157,7 @@
         { src: 'img75.webp', caption: 'Project 10 Image 4' },
         { src: 'img76.jpg', caption: 'Project 10 Image 5' }
       ]
+
     };
 
     function buildProjectsMap() {
@@ -442,4 +450,5 @@
     }
 
     renderInitial();
+
   
